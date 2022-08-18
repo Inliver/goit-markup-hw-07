@@ -49,18 +49,20 @@
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 50%;
     cursor: pointer;
-}
+
+
+
+
+    &:hover,
+    &:focus {
+        cursor: pointer;
+        color: var(--focus-link-color);
+}}
 
 .icon-vector {
     display: flex;
     width: 11px;
     height: 11px;
-}
-
-.modal__btn:hover,
-.modal__btn:focus {
-    cursor: pointer;
-    color: var(--focus-link-color);
 }
 
 .modal__title {
